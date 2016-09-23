@@ -1,3 +1,16 @@
 <h1>
   {{title}}
 </h1>
+
+<h2>
+  {{comic.title}} details!
+</h2>
+
+<div>
+  <label>id: </label>{{comic.id}}
+</div>
+
+<div>
+  <label>Title: </label>
+  <input [(ngModel)]="comic.title" placeholder="title">
+</div>
